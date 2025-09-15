@@ -1,25 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Estamos atualizando — Em breve</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThunderBank - Em Manutenção</title>
   <style>
-    body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
-      background:#0b1020;color:#fff;font-family:Arial,Helvetica,sans-serif}
-    .box{max-width:760px;padding:36px;border-radius:12px;text-align:center;background:rgba(255,255,255,0.03)}
-    h1{font-size:28px;margin:0 0 8px}
-    p{margin:0 0 12px}
-    .contact{font-size:14px;opacity:.8}
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #000;
+      color: #FFD700;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    img {
+      max-width: 250px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 10px 0;
+      color: #FFD700;
+      text-shadow: 0 0 15px rgba(255, 215, 0, 0.9);
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 5px 0 20px 0;
+      color: #FFD700;
+    }
+
+    a {
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      color: #FFD700;
+    }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>🚧 Estamos atualizando nosso site</h1>
-    <p>Voltamos em breve. Obrigado pela paciência.</p>
-    <p class="contact">Se precisar, contate: contato@thunderbank.com.br</p>
-  </div>
+  <!-- Logo centralizado -->
+  <img src="logo.png" alt="ThunderBank Logo">
+
+  <!-- Mensagem principal -->
+  <h1>Estamos atualizando nosso site</h1>
+  <p>Voltamos em breve com muitas novidades.</p>
+
+  <!-- Rodapé com e-mail -->
+  <footer>
+    Contato: <a href="mailto:contato@thunderbank.com.br">contato@thunderbank.com.br</a>
+  </footer>
 </body>
 </html>
-
-
